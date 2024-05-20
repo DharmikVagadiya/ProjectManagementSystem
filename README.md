@@ -6,10 +6,15 @@ In today's educational environments, managing projects and assigning them to stu
 
 # Features
 **1. Student Data Management:** Maintain comprehensive records of student information.
+
 **2. Faculty Data Management:** Keep track of faculty details and their involvement in projects.
+
 **3. Student Team Management:** Organize students into teams for collaborative projects.
+
 **4. Project Management:** Manage current and upcoming projects with ease.
+
 **5. Submission Tracking:** Keep records of submitted projects for easy reference.
+
 **6. Project Tracking:** Monitor the progress of projects to ensure timely completion.
 
 # Tech Stack
@@ -61,7 +66,7 @@ Once the development server is running, open your browser and navigate to 'http:
 
 # Contributing
 
-###Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+#### Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)

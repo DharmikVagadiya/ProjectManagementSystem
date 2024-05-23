@@ -1,0 +1,24 @@
+.menu-title {
+    font-size: 14px;
+}
+
+.active {
+    color: rgb(108, 24, 225) !important;
+    /* color: white; */
+    /* background-color: rgb(3, 187, 243) !important; */
+    /* background-color: #3a8fcc !important; */
+}
+
+/* .deactive {
+    color: white; */
+    /* background-color: rgb(178, 233, 255) !important; */
+    /* background-color: #9fd7ff !important; */
+/* } */
+
+.tab {
+    color: rgb(56, 56, 56);
+    border-radius: 5px;
+    padding: 12px;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    bottom: -3px;
+}
+ 
+/* Hide the checkbox input */
+.toggle input {
+    display: none;
+}
+ 
+/* Describe slider's look and position. */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(172, 172, 172);
+    transition: .4s;
+    border-radius: 34px;
+}
+ 
+/* Describe the white ball's location 
+      and appearance in the slider. */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 11px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+ 
+/* Modify the slider's background color to 
+      green once the checkbox has been selected. */
+.checked .slider {
+    background-color: rgb(50 204 195);
+}
+ 
+/* When the checkbox is checked, shift the 
+      white ball towards the right within the slider. */
+.checked .slider:before {
+    transform: translateX(20px);
+}

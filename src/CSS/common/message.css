@@ -1,0 +1,28 @@
+.alert {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 18px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #18d137;
+}
+
+.alert-info {
+    background-color: #f1c40f;
+}
+
+.alert-error {
+    background-color: rgb(233, 81, 61);
+}
+
+.icon-alert{
+    font-size: 20px;
+}

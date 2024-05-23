@@ -1,0 +1,261 @@
+.form-control {
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+::placeholder {
+    color: lightgray;
+    font-size: 10px;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.form-group {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.control-label {
+    font-size: 13px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.w-full {
+    width: 100%;
+}
+
+
+
+.btnlogin {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50 204 195);
+}
+
+.align-right {
+    float: right;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    padding: 1vh;
+}
+
+th,
+td {
+    padding: 2vh;
+    text-align: left;
+}
+
+tbody {
+    max-height: 55vh;
+    overflow-x: scroll;
+}
+
+/* tr:nth-child(even) { */
+/* background-color: rgb(205, 243, 255); */
+/* background-color: rgb(255, 249, 255); */
+/* Apply gray background to even rows */
+/* } */
+
+/* tr th { */
+/* background-color: #2574ab; */
+/* background-color: rgb(86, 28, 86); */
+/* color: white;
+} */
+
+/* tr:nth-child(odd) { */
+/* background-color: rgb(177, 237, 255); */
+/* background-color: rgb(255, 255, 255); */
+/* Apply white background to odd rows */
+/* } */
+
+.btn-save {
+    color: white;
+    background-color: rgb(36, 186, 36);
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(108, 108, 108);
+    width: 75px;
+}
+
+.btn-cancel {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(108, 108, 108);
+    width: 75px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+@media (max-width: 750px) {
+    .side-panel {
+        display: none;
+    }
+
+    .mono-sidebar {
+        display: block;
+    }
+}
+
+@media (min-width: 751px) {
+    .side-panel {
+        display: block;
+    }
+
+    .mono-sidebar {
+        display: none;
+    }
+}
+
+.btn-add {
+    /* background-color: #259dab; */
+    background-image: linear-gradient(to left, rgb(1, 210, 67), rgb(118, 240, 73));
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn-delete {
+    /* background-color: #dc3545; */
+    background-image: linear-gradient(to left, rgb(208, 1, 1), rgb(246, 96, 96));
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn-edit {
+    /* background-color: #2574ab !important; */
+    background-image: linear-gradient(to left, rgb(1, 15, 208), rgb(90, 106, 250));
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn-field {
+    /* background-color: #e6ad5c; */
+    background-image: linear-gradient(to left, #ca7600, #eca43f);
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.dropdown-color {
+    border-color: #353535;
+}
+
+.btn-login {
+    background-image: linear-gradient(to left, rgb(162, 1, 183), rgb(182, 69, 239));
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn-refresh {
+    background-color: #2a88c2;
+    background-image: linear-gradient(to left, #01c4be, #2fded8);
+    border: 1px solid rgb(167, 167, 167);
+    color: white;
+    border-radius: 5px;
+}
+
+.div-table {
+    height: 60vh;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.tbody {
+    max-height: 53vh;
+    overflow-x: auto;
+}
+
+.menu-titles {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-denger {
+    color: red;
+}
+
+.btn-cancel-join {
+    background-color: rgb(255, 79, 43);
+    border: 1px solid rgb(52, 52, 52);
+    width: 55px;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(152, 152, 152);
+}
+
+.lbl-close {
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: right;
+    height: fit-content;
+}
+
+/* 
+button:disabled{
+    box-shadow: inset 0px 0px 5px 0px rgb(85, 85, 85) !important;
+} */
+
+.disable {
+    cursor: not-allowed;
+}
+
+.search-options {
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: inset 0px -2px 3px rgb(163, 163, 163);
+}
+
+.searchbox {
+    background-color: white;
+}
